@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alata&family=Alfa+Slab+One&family=Rokkitt:wght@100&display=swap');
 
 * {
@@ -84,7 +84,7 @@ body {
 main {
     max-width: 100%;
     margin: auto;
-    font-family: 'Berkshire Swash';
+    font-family: 'Belanosima', sans-serif;
     text-align: center;
     font-size: 100%;
 }
@@ -142,12 +142,12 @@ h2 {
 }
 #CV, #mas, #modo{
     box-sizing:content-box;
-    background-color: rgb(253, 252, 254);
+    background-color:#52b69a;
     width: 20%;
     height: 20%;
     border-radius: 0.32rem;
     font-size: 80%;
-    color:black;
+    color:white;
     justify-content:end;
 }
 a {
@@ -216,7 +216,7 @@ footer{
 }
 @import "dark_web.css";
 body.dark {
-    background: #4f772d;
+    background: #df8908;
 }
 
 @media screen and (max-width: 980px){
