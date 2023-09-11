@@ -19,7 +19,7 @@ const buttonA = document.querySelector("#mas");
 const headingA = document.querySelector("#mas_A");
 buttonA.onclick = () => {
   const name = prompt("Cuál es tu nombre?");
-  alert(`Hola ${name}, además de ser aprendiz en el desarrollo web también soy abogada penalista, especialista en documentación de casos de crímenes de lesa humanidad. Debido a mi cambio de contexto y de país, estoy comenzando a incursionar en otras áreas como el mundo del Front-end`);
+  alert(`Hola ${name}, además de ser aprendiz en el desarrollo web también soy abogada penalista. Debido a mi cambio de contexto y de país, estoy comenzando a incursionar en otras áreas como el mundo del Front-end`);
 };
 
 const botonCambio = document.getElementById('modo');
